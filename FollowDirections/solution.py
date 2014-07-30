@@ -1,4 +1,5 @@
-f = open('SampleInput.txt')
+import os
+f = open(os.path.join(os.path.dirname(__file__), 'SampleInput.txt'))
 
 x,y = 0,0
 dir = 0
